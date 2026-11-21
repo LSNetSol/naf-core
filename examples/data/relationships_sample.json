@@ -1,0 +1,10 @@
+{
+  "comment": "Synthetic AS relationships (RFC 5398 documentation ASNs). key 'a,b': b is a's customer (p2c), provider (c2p) or peer (p2p)",
+  "relationships": {
+    "64500,64496": "p2c",
+    "64500,64499": "p2c",
+    "64500,64501": "p2p",
+    "64501,64497": "p2c",
+    "64502,64500": "c2p"
+  }
+}

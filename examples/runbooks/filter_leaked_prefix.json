@@ -1,0 +1,20 @@
+{
+  "name": "filter-leaked-prefix",
+  "trigger": "route_leak",
+  "autonomy_level": 1,
+  "scope": {
+    "devices": [
+      "edge-a",
+      "edge-b"
+    ],
+    "max_prefixes": 5
+  },
+  "steps": [
+    "snapshot_config",
+    "apply_prefix_filter",
+    "verify:bgp_state_matches_intent"
+  ],
+  "rollback": "restore_snapshot",
+  "approval": "required",
+  "expires_after": "4h"
+}
