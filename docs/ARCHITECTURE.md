@@ -1,6 +1,6 @@
 # Architecture
 
-The full document, *Architecture - HLD & LLD* (high-level design, low-level design, detection rules, runbook format, threat model), is in [`Architecture - HLD & LLD.pdf`](Architecture - HLD & LLD.pdf).
+The full document, *Architecture-HLD-LLD* (high-level design, low-level design, detection rules, runbook format, threat model), is in [`Architecture-HLD-LLD.pdf`](Architecture-HLD-LLD.pdf).
 
 ## High-level design
 
