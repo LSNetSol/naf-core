@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "naf-core"
+version = "0.2.0"
+description = "closed-loop network assurance framework (pre-alpha)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [{ name = "LS Network Solutions LLC" }]
+
+[tool.setuptools.packages.find]
+where = ["src"]
